@@ -1,0 +1,267 @@
+diff --git a/hw01/MyPage.html b/hw01/MyPage.html
+new file mode 100644
+index 0000000..02a9370
+--- /dev/null
++++ b/hw01/MyPage.html
+@@ -0,0 +1,96 @@
++<!doctype html>
++<html lang="en">
++ <head>
++  <title>My Page</title>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device">
++  <meta http-equiv="Pragma" content="No-Cache">
++  <meta name="Generator" content="EditPlus®">
++  <meta name="Author" content="Sam Hahn">
++  <meta name="Keywords" content="Sam Hahn's Webpage">
++  <meta name="Description" content="Sam Hahn's Webpage">
++  <title>Sam Hahn</title>
++  <style>
++   .background
++   {
++     text-align: center
++	 
++   }
++   .image-header
++   {
++     text-align: center
++   }
++   .image-header img
++   {
++	 border: 4px solid #ffffff
++	 border-radius: 8px
++	 margin-top: -60px
++   }
++   .name
++   {
++	 text-align: center
++   }
++   .navi
++   {
++     display: -moz-box /*FireFox*/
++	 display: -webkit-box /*Safari*/
++	 display: box
++   }
++   .navi .navi-item
++   {
++     -moz-box-flex: 1.0
++	 -webkit-box-flex: 1.0
++	 flex: 1.0
++	 text-align: center
++	 color: #1d2129
++	 font-size : 14px
++   }
++   .navi i
++   {
++     display: block
++	 width: 20px
++	 height: 20px
++	 background-size: cover
++	 margin: 0 auto
++	 /*padding-top:*/
++   }
++  </style>
++ </head>
++ <body topmargin="0" bgcolor="#00ffff" text="0000ff">
++  <div class="cover">
++   <div class="background">
++    <img src="background.jpg" width="700px" height="300px" border="0">
++   </div>
++   <div class="image-header">
++	<img src="profile.jpg" width="150px" height="180px">
++   </div>
++   <div class="name"><h1><B>Sam Hahn</h1></B></div>
++  </div>
++  <div class="navi">
++   <div class="navi-item">
++   <a href="http://www.facebook.com/hanleftover">
++	<span><h4 align="center">Go to his page</h2></span>
++   <a>
++   </div>
++  </div>
++  <div class="summery" align="center">---Summery---
++  <div><h6 align="center">Bithdate : 1995 01 17</div>
++  <div><h6 align="center">University : Tsinghua University</div>
++  <div><h6 align="center">Major : Software Engineering</div>
++  <div><h6 align="center">Cellphone : (+86) 15501087375</div>
++  <div><h6 align="center">Email : hahnsb0597@naver.com</div>
++  <div><a href="http://hansf14.github.io/">
++  <span><h6 align="center">Github : http://hansf14.github.io/</h6></span>
++  </a>
++  </div>
++  <div><h6 align="center">-----------------------------------------------</div>
++  <div class="个人日记"><h4 align="center">个人日记</h4>
++  <div>2016.06.30</div>
++   <div><a href="http://hansf14.github.io/fe/hw1">
++   <span>本次的课程中，学习制作自己个人的网页是很让人期待的。虽然只有不长的时间内仅有的5次课程，我会尽量学到知识，一定会达成本次课程的目的。</span>
++   </a>
++   </div>
++   </div>
++  </div>
++ </body>
++</html>
+diff --git a/hw01/MyPage.html.bak b/hw01/MyPage.html.bak
+new file mode 100644
+index 0000000..cb0fb7c
+--- /dev/null
++++ b/hw01/MyPage.html.bak
+@@ -0,0 +1,95 @@
++<!doctype html>
++<html lang="en">
++ <head>
++  <title>My Page</title>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device">
++  <meta http-equiv="Pragma" content="No-Cache">
++  <meta name="Generator" content="EditPlus®">
++  <meta name="Author" content="Sam Hahn">
++  <meta name="Keywords" content="Sam Hahn's Webpage">
++  <meta name="Description" content="Sam Hahn's Webpage">
++  <title>Sam Hahn</title>
++  <style>
++   .background
++   {
++     text-align: center
++	 
++   }
++   .image-header
++   {
++     text-align: center
++   }
++   .image-header img
++   {
++	 border: 4px solid #ffffff
++	 border-radius: 8px
++	 margin-top: -60px
++   }
++   .name
++   {
++	 text-align: center
++   }
++   .navi
++   {
++     display: -moz-box /*FireFox*/
++	 display: -webkit-box /*Safari*/
++	 display: box
++   }
++   .navi .navi-item
++   {
++     -moz-box-flex: 1.0
++	 -webkit-box-flex: 1.0
++	 flex: 1.0
++	 text-align: center
++	 color: #1d2129
++	 font-size : 14px
++   }
++   .navi i
++   {
++     display: block
++	 width: 20px
++	 height: 20px
++	 background-size: cover
++	 margin: 0 auto
++	 /*padding-top:*/
++   }
++  </style>
++ </head>
++ <body topmargin="0" bgcolor="#00ffff" text="0000ff">
++  <div class="cover">
++   <div class="background">
++    <img src="background.jpg" width="700px" height="300px" border="0">
++   </div>
++   <div class="image-header">
++	<img src="profile.jpg" width="150px" height="180px">
++   </div>
++   <div class="name"><h1><B>Sam Hahn</h1></B></div>
++  </div>
++  <div class="navi">
++   <div class="navi-item">
++   <a href="http://www.facebook.com/hanleftover">
++	<span><h4 align="center">Go to his page</h2></span>
++   <a>
++   </div>
++  </div>
++  <div class="summery" align="center">---Summery---
++  <div><h6 align="center">Bithdate : 1995 01 17</div>
++  <div><h6 align="center">University : Tsinghua University</div>
++  <div><h6 align="center">Major : Software Engineering</div>
++  <div><h6 align="center">Cellphone : (+86) 15501087375</div>
++  <div><h6 align="center">Email : hahnsb0597@naver.com</div>
++  <div><a href="http://hansf14.github.io/">
++  <span><h6 align="center">Github : http://hansf14.github.io/</h6></span>
++  </a>
++  </div>
++  <div><h6 align="center">-----------------------------------------------</div>
++  <div class="个人日记"><h4 align="center">个人日记</h4>
++  <div>2016.06.30</div>
++   <div><a href="http://hansf14.github.io/fe/hw1">
++   <span>本次的课程中，学习制作自己个人的网页是很让人期待的。虽然只有不长的时间内仅有的5次课程，我会尽量学到知识，一定会达成本次课程的目的。</span>
++   </a>
++   </div>
++  </div>
++ </body>
++</html>
+diff --git a/hw01/background.jpg b/hw01/background.jpg
+new file mode 100644
+index 0000000..03fad24
+Binary files /dev/null and b/hw01/background.jpg differ
+diff --git a/hw01/profile.jpg b/hw01/profile.jpg
+new file mode 100644
+index 0000000..8778550
+Binary files /dev/null and b/hw01/profile.jpg differ
+diff --git a/hw01/说明文档.html b/hw01/说明文档.html
+new file mode 100644
+index 0000000..7bca1eb
+--- /dev/null
++++ b/hw01/说明文档.html
+@@ -0,0 +1,22 @@
++<!doctype html>
++<html lang="zh-cn">
++ <head>
++  <meta charset="UTF-8">
++  <meta name="Generator" content="EditPlus®">
++  <meta name="Author" content="">
++  <meta name="Keywords" content="">
++  <meta name="Description" content="">
++  <title>说明文档</title>
++ </head>
++ <body>
++ <div><h4>韩昇范 2014080086 软件42</h4></div>
++ <div>Email : hahnsb0579@naver.com</div>
++ <div>Cellphone : (+86) 15501087375</div>
++ <div>--------------------------</div>
++ <div><h4>Webpage Development Environment</h4></div>
++ <div>OS : Win7 64bit</div>
++ <div>Ram : 8GB</div>
++ <div>EditPlus</div>
++ <div>HTML CSS</div>
++ </body>
++</html>
+diff --git a/hw01/说明文档.html.bak b/hw01/说明文档.html.bak
+new file mode 100644
+index 0000000..9e2803a
+--- /dev/null
++++ b/hw01/说明文档.html.bak
+@@ -0,0 +1,22 @@
++<!doctype html>
++<html lang="zh-cn">
++ <head>
++  <meta charset="UTF-8">
++  <meta name="Generator" content="EditPlus®">
++  <meta name="Author" content="">
++  <meta name="Keywords" content="">
++  <meta name="Description" content="">
++  <title>说明文档</title>
++ </head>
++ <body>
++ <div><h4>韩昇范 2014080086 软件42</h4></div>
++ <div>Email : hahnsb0579@naver.com</div>
++ <div>Cellphone : (+86) 15501087375</div>
++ <div>--------------------------</div>
++ <div><h4>Webpage Development environment</h4></div>
++ <div>OS : Win7 64bit</div>
++ <div>Ram : 8GB</div>
++ <div>EditPlus</div>
++ <div>HTML CSS</div>
++ </body>
++</html>
